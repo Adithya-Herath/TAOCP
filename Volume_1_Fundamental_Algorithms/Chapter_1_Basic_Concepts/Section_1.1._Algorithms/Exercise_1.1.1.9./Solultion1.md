@@ -5,8 +5,8 @@
 
 ## Problem Statement
 
-> Suppose that $C_1=(Q_1,I_1,\Omega_1,f_1)$ and $C_2=(Q_2,I_2,\Omega_2,f_2)$ are computational methods. For example, $C_1$ might stand for Algorithm $E$ as in Eqs. $(2)$ except that $m$ and $n$ are restricted in magnitude, and $C_1$ might stand for a computer program implementation of Algorithm $E$. (Thus $Q_2$ might be the set of all states of the machine, i.e., all possible configurations of its memory and registers; $f_2$ might be the definition of single machine actions; and $I_2$ might be the initial state, including the program for the greatest common divisor as well as the values of $m$ and $n$.)
-Formulate a set-theoretic definition for the concept $``C_2$ simulates $C_1$. This is the mean intuitively that any computation sequence of $C_1$ is mimicked by $C_2"$, except that $C_2$ might take more steps in which to do the computation and it might retain more information in its states. (We thereby obtain a rigorous interpretation of the statement, $``$Program $X$ is an implementation of Algorithm $Y."$)
+> Suppose that $C_1=(Q_1,I_1,\Omega_1,f_1)$ and $C_2=(Q_2,I_2,\Omega_2,f_2)$ are computational methods. For example, $C_1$ might stand for Algorithm $E$ as in Eqs. $(2)$ except that $m$ and $n$ are restricted in magnitude, and $C_1$ might stand for a computer program implementation of Algorithm $E$. (Thus $Q_2$ might be the set of all states of the machine, i.e., all possible configurations of its memory and registers; $f_2$ might be the definition of single machine actions; and $I_2$ might be the initial state, including the program for the greatest common divisor as well as the values of $m$ and $n$.)\
+> Formulate a set-theoretic definition for the concept $``C_2 \text{ is a representation of }C_1"$ or $``C_2 \text{ simulates }C_1"$. This is to mean intuitively that any computation sequence of $C_1$ is mimicked by $C_2$, except that $C_2$ might take more steps in which to do the computation and it might retain more information in its states. (We thereby obtain a rigorous interpretation of the statement, $``$ Program $X$ is an implementation of Algorithm $Y."$)
 ---
 
 
